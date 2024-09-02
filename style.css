@@ -21,10 +21,6 @@ body{
     overflow: hidden;
 }
 
-.contenedorMusica{
-    opacity: 0;
-}
-
 .container{
     position: absolute;
     width: 100%;
