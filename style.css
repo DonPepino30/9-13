@@ -1,11 +1,36 @@
+@font-face {
+    font-family: "Mukta";
+    src: url("Mukta-Regular.ttf");
+}
+
+
 * {
     padding: 0;
     margin: 0;
+    box-sizing: border-box;
+    font-family: 'Mukta';
 }
 
 body{
+    display: flex;
+    justify-content: center;
+    align-items: top;
+    min-height: 100vh;
     background-color: black;
     overflow: hidden;
+}
+
+.neon{
+    font-size: 5em;
+    font-weight: 500;
+    color: #fff;
+    text-shadow: 0 0 5px #b5df20,
+    0 0 25px #d5f718,
+    0 0 50px #03e9f4,
+    0 0 100px #03e9f4;
+
+    letter-spacing: 5px;
+    cursor: pointer;
 }
 
 .contenedor{
@@ -40,13 +65,13 @@ body{
     left: 47%;
     border-top-right-radius: 40%;
     border-top-left-radius: 150%;
-    border-bottom-right-radius: 15%;
-    border-bottom-left-radius: 150%;
+    border-bottom-right-radius: 150%;
+    border-bottom-left-radius: 15%;
     z-index: 1;
 }
 
 .eContenedores .petalo3{
-    background: linear-gradient(to top,#D15B01, #FDC300,#FDC300);
+    background: linear-gradient(to bottom,#D15B01, #FDC300,#FDC300);
     width: 27%;
     height: 15%;
     position: absolute;
@@ -54,13 +79,13 @@ body{
     left: 20%;
     border-top-right-radius: 15%;
     border-top-left-radius: 150%;
-    border-bottom-right-radius: 40%;
-    border-bottom-left-radius: 150%;
+    border-bottom-right-radius: 150%;
+    border-bottom-left-radius: 40%;
     z-index: 1;
 }
 
 .eContenedores .petalo4{
-    background: linear-gradient(to top,#D15B01, #FDC300,#FDC300);
+    background: linear-gradient(to bottom,#D15B01, #FDC300,#FDC300);
     width: 27%;
     height: 15%;
     position: absolute;
@@ -68,37 +93,37 @@ body{
     left: 47%;
     border-top-right-radius: 150%;
     border-top-left-radius: 15%;
-    border-bottom-right-radius: 150%;
-    border-bottom-left-radius: 40%;
+    border-bottom-right-radius: 40%;
+    border-bottom-left-radius: 150%;
     z-index: 1;
 }
 
 .eContenedores .petalo5{
-    background: linear-gradient(to top,#D15B01, #FDC300,#FDC300);
+    background: linear-gradient(to right,#D15B01, #FDC300,#FDC300);
     width: 27%;
     height: 15%;
     position: absolute;
-    top: 12%;
+    top: 11%;
     left: 32.7%;
     border-top-right-radius: 150%;
-    border-top-left-radius: 40%;
+    border-top-left-radius: 63%;
     border-bottom-right-radius: 15%;
-    border-bottom-left-radius: 15%;
-    rotate: 44deg;
+    border-bottom-left-radius: 150%;
+    rotate: 55deg;
 }
 
 .eContenedores .petalo6{
-    background: linear-gradient(to top,#D15B01, #FDC300,#FDC300);
+    background: linear-gradient(to left,#D15B01, #FDC300,#FDC300);
     width: 27%;
     height: 15%;
     position: absolute;
     top: 23%;
-    left: 52%;
-    border-top-right-radius: 40%;
+    left: 54%;
+    border-top-right-radius: 63%;
     border-top-left-radius: 150%;
-    border-bottom-right-radius: 15%;
-    border-bottom-left-radius: 150%;
-    rotate: 44deg;
+    border-bottom-right-radius: 150%;
+    border-bottom-left-radius: 15%;
+    rotate: 30deg;
 }
 
 .eContenedores .petalo7{
@@ -106,14 +131,14 @@ body{
     width: 27%;
     height: 15%;
     position: absolute;
-    top: 34%;
+    top: 33%;
     left: 33.4%;
     border-top-right-radius: 150%;
     border-top-left-radius: 15%;
-    border-bottom-right-radius: 150%;
-    border-bottom-left-radius: 40%;
+    border-bottom-right-radius: 63%;
+    border-bottom-left-radius: 150%;
     animation: giro4 2s linear infinite;
-    rotate: 44deg;
+    rotate: 50deg;
 }
 
 .eContenedores .petalo8{
@@ -125,8 +150,8 @@ body{
     left: 14%;
     border-top-right-radius: 15%;
     border-top-left-radius: 150%;
-    border-bottom-right-radius: 40%;
-    border-bottom-left-radius: 150%;
+    border-bottom-right-radius: 150%;
+    border-bottom-left-radius: 63%;
     animation: giro4 2s linear infinite;
     rotate: 44deg;
 }
