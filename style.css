@@ -38,19 +38,19 @@ body{
     position: relative;
     width: 30px;
     height: 20px;
-    background: #a7e205;
+    background: #cee40e;
     margin: 0 25px;
     border-radius: 50%;
-    box-shadow: 0 0 0 10px #5c7c03,
-    0 0 50px #a7e205,
-    0 0 100px #a7e205;
+    box-shadow: 0 0 0 10px #a0b103b6,
+    0 0 50px #cee40e,
+    0 0 100px #cee40e;
     animation: animate 15s linear infinite;
     animation-duration: calc(125s/var(--i));
 }
 
 .bubbles span:nth-child(even){
     background: #fd6f11;
-    box-shadow: 0 0 0 10px #c4680044,
+    box-shadow: 0 0 0 10px #c46900ce,
     0 0 50px #fd6f11,
     0 0 100px #fd6f11; 
 }
