@@ -38,21 +38,21 @@ body{
     position: relative;
     width: 30px;
     height: 20px;
-    background: #4fc3dc;
+    background: #a7e205;
     margin: 0 25px;
     border-radius: 50%;
-    box-shadow: 0 0 0 10px #4fc3dc44,
-    0 0 50px #4fc3dc,
-    0 0 100px #4fc3dc;
+    box-shadow: 0 0 0 10px #5c7c03,
+    0 0 50px #a7e205,
+    0 0 100px #a7e205;
     animation: animate 15s linear infinite;
     animation-duration: calc(125s/var(--i));
 }
 
 .bubbles span:nth-child(even){
-    background: #ff2d75;
-    box-shadow: 0 0 0 10px #ff2d7544,
-    0 0 50px #ff2d75,
-    0 0 100px #ff2d75; 
+    background: #fd6f11;
+    box-shadow: 0 0 0 10px #c4680044,
+    0 0 50px #fd6f11,
+    0 0 100px #fd6f11; 
 }
 
 @keyframes animate{
