@@ -21,6 +21,10 @@ body{
     overflow: hidden;
 }
 
+.audio{
+    visibility: hidden;
+}
+
 .container{
     position: absolute;
     width: 100%;
